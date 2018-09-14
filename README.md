@@ -11,21 +11,21 @@ Look for a project's contribution instructions. If there are any, follow them.
 ### Prerequisites
 
 - Create a personal fork of the project on GitHub.
- * Use the web interface
+  * Use the web interface
 - Clone the fork on your local machine. Your remote repo on Github is called `origin`.
- * `git clone https://github.com/yourname/repo.git`
+  * `git clone https://github.com/yourname/repo.git`
 - Add the original repository as a remote called `upstream`.
- * [GitHub Help: Configuring a remote for a fork](https://help.github.com/articles/configuring-a-remote-for-a-fork/)
- * `git remote add upstream https://github.com/originaluser/repo.git`
+  * [GitHub Help: Configuring a remote for a fork](https://help.github.com/articles/configuring-a-remote-for-a-fork/)
+  * `git remote add upstream https://github.com/originaluser/repo.git`
 - If you created your fork a while ago be sure to pull upstream changes into your local repository.
- * [GitHub Help: Syncing a fork](https://help.github.com/articles/syncing-a-fork/)
- * *fetch* + *upstream* or *pull* syncs the files on your local machine, *push* to commit changes to your remote fork:
-     1. `git fetch upstream`
-     2. `git checkout master`
-     3. `git merge upstream/master`
-     4. `git push`
+  * [GitHub Help: Syncing a fork](https://help.github.com/articles/syncing-a-fork/)
+  * *fetch* + *upstream* or *pull* syncs the files on your local machine, *push* to commit changes to your remote fork:
+    1. `git fetch upstream`
+    2. `git checkout master`
+    3. `git merge upstream/master`
+    4. `git push`
 - Create a new branch to work on! Branch from `dev(elop)` if it exists, else from `master`.
- * Give it a descriptive name to make your intentions clear.
+  * Give it a descriptive name to make your intentions clear.
 
 ### Your turn
 
@@ -35,7 +35,7 @@ Look for a project's contribution instructions. If there are any, follow them.
 - Write or adapt tests as needed.
 - Add or change the documentation as needed.
 - Squash your commits into a single commit with git's [interactive rebase](https://help.github.com/articles/interactive-rebase). Create a new branch if necessary.
- * HELP!
+  * HELP!
 - Push your branch to your fork on GitHub, the remote `origin`.
 - From your fork open a pull request in the correct branch. Target the project's `develop` branch if there is one, else go for `master`!
 - If the maintainer requests further changes just push them to your branch. The PR will be updated automatically.
